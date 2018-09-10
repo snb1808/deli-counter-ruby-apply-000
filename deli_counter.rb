@@ -1,12 +1,11 @@
 katz_deli = []
 
-
+$ticket_number = 1
 
 def take_a_number(katz_deli)
-  ticket_number = 1
-  katz_deli.push(ticket_number)
-  puts "Welcome! You're ticket number #{ticket_number}"
-  ticket_number += 1
+  katz_deli.push($ticket_number)
+  puts "Welcome! You're ticket number #{$ticket_number}"
+  $ticket_number += 1
   # ticket_number = ticket_number + 1
 end
 
