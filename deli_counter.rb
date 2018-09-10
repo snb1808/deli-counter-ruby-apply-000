@@ -1,5 +1,27 @@
 katz_deli = []
 
+
+
+def take_a_number(katz_deli)
+  ticket_number = 1
+  katz_deli.push(ticket_number)
+  puts "Welcome! You're ticket number #{ticket_number}"
+  ticket_number += 1
+  # ticket_number = ticket_number + 1
+end
+
+
+# take_a_number(katz_deli) => "Welcome! You're ticket number #1" [1]
+
+# take_a_number(katz_deli) => "Welcome! You're ticket number #2"
+
+# now_serving(katz_deli) => "Currently serving: #1"
+# now_serving(katz_deli) => "Currently serving: #2" []
+
+# take_a_number(katz_deli) => "Welcome! You're ticket number #3"
+
+
+
 def line(katz_deli)
   if katz_deli.length == 0
     puts "The line is currently empty."
